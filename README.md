@@ -1,4 +1,9 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Trali landing page
+
+[Demo Link](https://leonid1313.github.io/trali/).
+
+[Layout](https://www.figma.com/file/KLIPnoitpqLRdvvsCzKdOT/trali?node-id=152%3A9172).
+
+Technologies:
+  - HTML;
+  - SaSS;
