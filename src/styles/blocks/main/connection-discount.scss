@@ -1,0 +1,15 @@
+.connection-discount {
+
+  @media (max-width:1399px) {
+    margin: 50px auto 0;
+    width: 700px;
+  }
+
+  @media (max-width:768px) {
+    width: 500px;
+  }
+
+  @media (max-width:576px) {
+    width: 260px;
+  }
+}

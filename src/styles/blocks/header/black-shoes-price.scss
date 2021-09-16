@@ -1,0 +1,24 @@
+.black-shoes-price {
+  position: absolute;
+  top: 542px;
+  left: 648px;
+
+  &__span {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #05297f;
+  }
+}

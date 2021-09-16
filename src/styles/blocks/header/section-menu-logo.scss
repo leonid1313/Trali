@@ -1,0 +1,16 @@
+.section-menu-logo {
+  padding-top: 22px;
+  margin-bottom: 35px;
+
+  @media (max-width:991px) {
+    justify-content: space-between;
+  }
+
+  @media (max-width:768px) {
+    margin-bottom: 250px;
+  }
+
+  @media (max-width:568px) {
+    flex-direction: column;
+  }
+}

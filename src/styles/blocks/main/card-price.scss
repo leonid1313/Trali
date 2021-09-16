@@ -1,0 +1,29 @@
+.card-price {
+  width: 125px;
+  margin: 0 auto;
+
+  &__image {
+    width: 38px;
+    height: 38px;
+  }
+
+  &__text {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #d63447;
+  }
+
+  &__span {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #b1b1b1;
+    visibility: hidden;
+  }
+}

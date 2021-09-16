@@ -1,0 +1,17 @@
+.section-product {
+
+  &__title {
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width:576px) {
+    margin-top: 200px;
+  }
+}

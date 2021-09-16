@@ -1,0 +1,74 @@
+.card {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &__image {
+    height: 435px;
+  }
+
+  &__image-stars {
+    margin: 16px auto 20px;
+    width: 100px;
+  }
+
+  &__span {
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #b1b1b1;
+  }
+
+  &__text {
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 991px) {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 767px) {
+    margin: 20px auto 0;
+  }
+}
+
+.card:hover {
+  .card-hover {
+    display: block;
+  }
+
+  .card-price__span {
+    visibility: visible;
+  }
+}
+
+.card:last-child {
+  padding-left: 15px;
+  padding-right: 0;
+
+  @media (max-width: 1399px) {
+    padding-right: 15px;
+    margin-top: 20px;
+  }
+}
+
+.card:nth-child(2) {
+  padding-left: 0;
+  padding-right: 15px;
+
+  @media (max-width: 1399px) {
+    padding-left: 15px;
+  }
+}

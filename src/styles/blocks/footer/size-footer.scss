@@ -1,0 +1,9 @@
+.size-footer {
+  padding-top: 176px;
+  padding-bottom: 164px;
+
+  @media (max-width:576px) {
+    padding-top: 36px;
+    padding-bottom: 64px;
+  }
+}

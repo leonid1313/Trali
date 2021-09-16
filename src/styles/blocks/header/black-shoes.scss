@@ -1,0 +1,8 @@
+.black-shoes {
+  margin-bottom: 350px;
+  position: relative;
+
+  @media (max-width:1200px) {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+.logo {
+  padding-left: 20px;
+
+  @media (max-width:568px) {
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,15 @@
+.container-networks {
+  width: 109px;
+
+  &__link {
+    color: #05297f;
+  }
+
+  &__link:hover {
+    color: #fc9d9d;
+  }
+
+  @media (max-width: 1199px) {
+    margin: 0 auto;
+  }
+}

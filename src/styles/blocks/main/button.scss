@@ -1,0 +1,23 @@
+.button {
+  color: #fff;
+  border-radius: 50px;
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  border: none;
+}
+
+.button-shop {
+  display: block;
+  margin: 0 auto 120px;
+  width: 172px;
+  padding: 15px 40px;
+  background-color: #05297f;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+
+  &:hover {
+    background-color: #fc9d9d;
+    color: #000;
+  }
+}

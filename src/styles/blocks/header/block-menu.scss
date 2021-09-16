@@ -1,0 +1,22 @@
+.block-menu {
+  width: 100%;
+  justify-content: space-between;
+
+  @media (max-width:1399px) {
+    width: 1000px;
+  }
+
+  @media (max-width:991px) {
+    flex-direction: column-reverse;
+    width: 500px;
+  }
+
+  @media (max-width:768px) {
+    flex-direction: row;
+    width: 300px;
+  }
+
+  @media (max-width:568px) {
+    margin: 0 auto;
+  }
+}

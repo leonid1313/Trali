@@ -1,0 +1,12 @@
+.phone-link {
+  margin-bottom: 17px;
+
+  &__image {
+    width: 41px;
+    height: 41px;
+  }
+
+  @media (max-width: 1199px) {
+    margin: 0 auto 17px;
+  }
+}

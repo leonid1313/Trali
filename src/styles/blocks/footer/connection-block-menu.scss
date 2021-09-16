@@ -1,0 +1,19 @@
+.connection-block-menu {
+
+  &__link {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666;
+  }
+
+  &__link:hover {
+    color: #05297f;
+  }
+
+  @media (max-width: 1199px) {
+    text-align: center;
+  }
+}

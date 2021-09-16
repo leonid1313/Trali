@@ -1,0 +1,25 @@
+.nav-header-item {
+  width: 625px;
+  margin-top: 25px;
+
+  &__link {
+    font-family: "Hind", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+
+  &__link:hover {
+    color: #05297f;
+  }
+
+  @media (max-width:1399px) {
+    width: 525px;
+  }
+
+  @media (max-width:1199px) {
+    width: 425px;
+  }
+}
