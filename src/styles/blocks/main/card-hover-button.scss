@@ -1,0 +1,29 @@
+.card-hover-button {
+  height: 122px;
+  position: absolute;
+  top: 263px;
+
+  &__compare {
+    border-radius: 50%;
+    border: none;
+    background: url("/images/compare.svg") no-repeat center / cover;
+    width: 34px;
+    height: 34px;
+  }
+
+  &__like {
+    border-radius: 50%;
+    border: none;
+    background: url("/images/like.svg") no-repeat center / cover;
+    width: 34px;
+    height: 34px;
+  }
+
+  &__view {
+    border-radius: 50%;
+    border: none;
+    background: url("/images/quik_view.svg") no-repeat center / cover;
+    width: 34px;
+    height: 34px;
+  }
+}
