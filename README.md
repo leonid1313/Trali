@@ -7,3 +7,4 @@
 Technologies:
   - HTML;
   - SaSS;
+  - Bootatrap 5;
