@@ -41,7 +41,9 @@
 @mixin roboto {
   font: {
     family: "Roboto", sans-serif;
-    size: 36px;
+    style: normal;
+    weight: 300;
+    size: 16px;
   }
-  line-height: 46px;
+  line-height: 24px;
 }
