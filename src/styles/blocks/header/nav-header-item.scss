@@ -3,16 +3,14 @@
   margin-top: 25px;
 
   &__link {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    @include hind-medium;
     font-size: 18px;
     line-height: 22px;
     text-transform: uppercase;
   }
 
   &__link:hover {
-    color: #05297f;
+    color: $c-blue;
   }
 
   @media (max-width:1399px) {

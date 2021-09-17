@@ -8,22 +8,18 @@
   }
 
   &__text {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    @include hind-semi-bold;
     font-size: 22px;
     line-height: 22px;
-    color: #d63447;
+    color: $ligth-red;
   }
 
   &__span {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    @include hind-normal;
     font-size: 16px;
     line-height: 16px;
     text-decoration-line: line-through;
-    color: #b1b1b1;
+    color: $c-ligth-gray;
     visibility: hidden;
   }
 }

@@ -1,5 +1,5 @@
 .button {
-  color: #fff;
+  color: $c-white;
   border-radius: 50px;
   font-family: "Hind", sans-serif;
   font-style: normal;
@@ -11,13 +11,13 @@
   margin: 0 auto 120px;
   width: 172px;
   padding: 15px 40px;
-  background-color: #05297f;
+  background-color: $c-blue;
   font-weight: normal;
   font-size: 18px;
   line-height: 18px;
 
   &:hover {
-    background-color: #fc9d9d;
-    color: #000;
+    background-color: $c-pink;
+    color: $c-dark;
   }
 }

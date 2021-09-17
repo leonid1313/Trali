@@ -16,20 +16,16 @@
 
   &__span {
     text-align: center;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 14px;
     line-height: 14px;
     text-transform: uppercase;
-    color: #b1b1b1;
+    color: $c-ligth-gray;
   }
 
   &__text {
     text-align: center;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    @include hind-normal;
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 20px;

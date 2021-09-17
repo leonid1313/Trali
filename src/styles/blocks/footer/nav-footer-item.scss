@@ -4,15 +4,13 @@
   &__link {
     border-right: 1px solid #e5e5e5;
     padding-right: 20px;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    @include hind-medium;
     font-size: 16px;
     line-height: 16px;
     text-transform: uppercase;
   }
 
   &__link:hover {
-    color: #05297f;
+    color: $c-blue;
   }
 }

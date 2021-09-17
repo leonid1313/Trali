@@ -1,9 +1,7 @@
 .payment-block {
 
   &__title {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    @include hind-medium;
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 20px;

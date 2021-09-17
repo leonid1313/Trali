@@ -2,9 +2,7 @@
 
   &__title {
     text-align: center;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 54px;
     line-height: 60px;
     text-transform: uppercase;

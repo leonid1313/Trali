@@ -4,21 +4,17 @@
   left: 630px;
 
   &__span {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 14px;
     line-height: 48px;
     text-transform: uppercase;
   }
 
   &__text {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 46px;
     line-height: 48px;
     text-transform: uppercase;
-    color: #05297f;
+    color: $c-blue;
   }
 }

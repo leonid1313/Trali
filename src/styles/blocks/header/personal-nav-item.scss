@@ -2,19 +2,11 @@
   width: 300px;
   margin-top: 25px;
 
+  &__list {
+    position: relative;
+  }
+
   @media (max-width:1199px) {
     width: 200px;
-  }
-
-  @media (max-width:992px) {
-    max-width: 960px;
-  }
-
-  @media (max-width:768px) {
-    max-width: 720px;
-  }
-
-  @media (max-width:576px) {
-    max-width: 540px;
   }
 }

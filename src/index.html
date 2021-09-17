@@ -75,14 +75,17 @@
                     <img class="personal-nav-item__img" src="./images/user.svg" alt="Icon">
                     <span>Jonny</span>
                   </li>
-                  <li>
+                  <li class="personal-nav-item__list">
                     <img class="personal-nav-item__img" src="./images/heart-header.svg" alt="heart">
+                    <span class="personal-nav-item-span personal-nav-item-span-heart"></span>
                   </li>
-                  <li>
+                  <li class="personal-nav-item__list">
                     <img class="personal-nav-item__img" src="./images/libra-header.svg" alt="libra">
+                    <span class="personal-nav-item-span personal-nav-item-span-libra"></span>
                   </li>
-                  <li>
+                  <li class="personal-nav-item__list">
                     <img class="personal-nav-item__img" src="./images/cart-header.svg" alt="card">
+                    <span class="personal-nav-item-span personal-nav-item-span-card">15</span>
                   </li>
                 </ul>
               </nav>
@@ -90,20 +93,42 @@
           </div>
         </section>
         <section class="d-flex section-presentation">
-          <div class="col-xl-5 col-sm-10 presentation" id="about">
-            <span class="presentation__span">Explore New</span>
-            <h1 class="presentation__title">Champion Women’s</h1>
-            <p class="presentation__text">Sed pretium turpis id orci molestie, vitae placerat ligula vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam purus, vehicula ac tortor ut, dictum vestibulum nisi. Nulla condimentum felis quis augue viverra, et tempor arcu dapibus.</p>
-            <button class="button presentation__button">Add to Cart</button>
+          <div id="carouselExampleIndicators" class="carousel slide col-xl-5 col-sm-10 presentation" data-bs-ride="carousel">
+            <div class="carousel-inner" id="about">
+              <div class="carousel-item active">
+                <div class="d-block">
+                  <span class="presentation__span">Explore New</span>
+                  <h1 class="presentation__title">Champion Women’s</h1>
+                  <p class="presentation__text">Sed pretium turpis id orci molestie, vitae placerat ligula vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam purus, vehicula ac tortor ut, dictum vestibulum nisi. Nulla condimentum felis quis augue viverra, et tempor arcu dapibus.</p>
+                  <button class="button presentation__button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block">
+                  <span class="presentation__span">Explore New 2</span>
+                  <h1 class="presentation__title">Champion Women’s</h1>
+                  <p class="presentation__text">Sed pretium turpis id orci molestie, vitae placerat ligula vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam purus, vehicula ac tortor ut, dictum vestibulum nisi. Nulla condimentum felis quis augue viverra, et tempor arcu dapibus.</p>
+                  <button class="button presentation__button">Add to Cart</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block">
+                  <span class="presentation__span">Explore New 3</span>
+                  <h1 class="presentation__title">Champion Women’s</h1>
+                  <p class="presentation__text">Sed pretium turpis id orci molestie, vitae placerat ligula vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam purus, vehicula ac tortor ut, dictum vestibulum nisi. Nulla condimentum felis quis augue viverra, et tempor arcu dapibus.</p>
+                  <button class="button presentation__button">Add to Cart</button>
+                </div>
+              </div>
+            </div>
             <div class="button-link d-flex justify-content-between">
-              <button class="button-link__arrow">
+              <a class="button-link__arrow carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
                 <img class="arrow" src="./images/prev.svg" alt="arrow">
                 <img class="arrow-hover" src="./images/prev1.svg" alt="arrow">
-              </button>
-              <button class="button-link__arrow">
+              </a>
+              <a class="button-link__arrow carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                 <img class="arrow" src="./images/next.svg" alt="arrow">
                 <img class="arrow-hover" src="./images/next1.svg" alt="arrow">
-              </button>
+              </a>
             </div>
           </div>
           <div class="col-xl-7 offset-xxl-1 col-sm-10 black-shoes">
@@ -158,13 +183,14 @@
               <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 card">
                 <div class="card-hover">
                   <p class="card-hover__text">-20%</p>
-                  <div class="d-flex flex-column justify-content-between card-hover__image">
-                    <img src="./images/compare.svg" alt="compare">
-                    <img src="./images/like.svg" alt="like">
-                    <img src="./images/quik_view.svg" alt="quik_view">
+                  <div class="d-flex flex-column justify-content-between card-hover-button">
+                    <button class="card-hover-button__compare"></button>
+                    <button class="card-hover-button__like"></button>
+                    <button id="1" class="card-hover-button__view"></button>
                   </div>
                 </div>
-                <img class="card__image" src="./images/img.png" alt="example">
+                <img id="1" class="card__image" src="./images/img.png" alt="example">
+                <button class="button-close">X</button>
                 <div class="card__image-stars">
                   <img src="./images/starfull.svg" alt="star">
                   <img src="./images/starfull.svg" alt="star">
@@ -182,13 +208,13 @@
               <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 card">
                 <div class="card-hover">
                   <p class="card-hover__text">-20%</p>
-                  <div class="d-flex flex-column justify-content-between card-hover__image">
-                    <img src="./images/compare.svg" alt="compare">
-                    <img src="./images/like.svg" alt="like">
-                    <img src="./images/quik_view.svg" alt="quik_view">
+                  <div class="d-flex flex-column justify-content-between card-hover-button">
+                    <button class="card-hover-button__compare"></button>
+                    <button class="card-hover-button__like"></button>
+                    <button id="2" class="card-hover-button__view"></button>
                   </div>
                 </div>
-                <img class="card__image" src="./images/img2.png" alt="example">
+                <img id="2" class="card__image" src="./images/img2.png" alt="example">
                 <div class="card__image-stars">
                   <img src="./images/starfull.svg" alt="star">
                   <img src="./images/starfull.svg" alt="star">
@@ -206,13 +232,13 @@
               <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 card">
                 <div class="card-hover">
                   <p class="card-hover__text">-20%</p>
-                  <div class="d-flex flex-column justify-content-between card-hover__image">
-                    <img src="./images/compare.svg" alt="compare">
-                    <img src="./images/like.svg" alt="like">
-                    <img src="./images/quik_view.svg" alt="quik_view">
+                  <div class="d-flex flex-column justify-content-between card-hover-button">
+                    <button class="card-hover-button__compare"></button>
+                    <button class="card-hover-button__like"></button>
+                    <button id="3" class="card-hover-button__view"></button>
                   </div>
                 </div>
-                <img class="card__image" src="./images/img3.png" alt="example">
+                <img id="3" class="card__image" src="./images/img3.png" alt="example">
                 <div class="card__image-stars">
                   <img src="./images/starfull.svg" alt="star">
                   <img src="./images/starfull.svg" alt="star">
@@ -230,13 +256,13 @@
               <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-7 col-10 card">
                 <div class="card-hover">
                   <p class="card-hover__text">-20%</p>
-                  <div class="d-flex flex-column justify-content-between card-hover__image">
-                    <img src="./images/compare.svg" alt="compare">
-                    <img src="./images/like.svg" alt="like">
-                    <img src="./images/quik_view.svg" alt="quik_view">
+                  <div class="d-flex flex-column justify-content-between card-hover-button">
+                    <button class="card-hover-button__compare"></button>
+                    <button class="card-hover-button__like"></button>
+                    <button id="4" class="card-hover-button__view"></button>
                   </div>
                 </div>
-                <img class="card__image" src="./images/img4.png" alt="example">
+                <img id="4" class="card__image" src="./images/img4.png" alt="example">
                 <div class="card__image-stars">
                   <img src="./images/starfull.svg" alt="star">
                   <img src="./images/starfull.svg" alt="star">
@@ -366,6 +392,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 

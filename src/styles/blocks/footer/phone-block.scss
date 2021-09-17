@@ -1,12 +1,10 @@
 .phone-block {
 
   &__text {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 18px;
     line-height: 24px;
-    color: #666;
+    color: $c-gray;
     margin-bottom: 30px;
 
     @media (max-width: 1199px) {

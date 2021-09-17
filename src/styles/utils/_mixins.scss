@@ -1,6 +1,47 @@
-@mixin hover($_property, $_toValue) {
-  transition: #{$_property} 0.3s;
-  &:hover {
-    #{$_property}: $_toValue;
+@mixin hind-ligth {
+  font: {
+    family: "Hind", sans-serif;
+    style: normal;
+    weight: 300;
   }
+}
+
+@mixin hind-medium {
+  font: {
+    family: "Hind", sans-serif;
+    style: normal;
+    weight: 500;
+  }
+}
+
+@mixin hind-bold {
+  font: {
+    family: "Hind", sans-serif;
+    style: normal;
+    weight: bold;
+  }
+}
+
+@mixin hind-semi-bold {
+  font: {
+    family: "Hind", sans-serif;
+    style: normal;
+    weight: 600;
+  }
+}
+
+@mixin hind-normal {
+  font: {
+    family: "Hind", sans-serif;
+    style: normal;
+    weight: normal;
+  }
+}
+
+@mixin roboto {
+  font: {
+    family: "Roboto", sans-serif;
+    size: 36px;
+  }
+  line-height: 46px;
 }

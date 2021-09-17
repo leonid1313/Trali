@@ -18,7 +18,7 @@
   "head-req-title": true,
   "html-req-lang": true,
   "id-class-style": false,
-  "id-no-dup": true,
+  "id-no-dup": false,
   "img-req-src": true,
   "img-req-alt": "allownull",
   "indent-width": 2,

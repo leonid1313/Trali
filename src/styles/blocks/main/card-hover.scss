@@ -6,27 +6,16 @@
 
   &__text {
     display: block;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 12px;
     line-height: 12px;
     text-transform: uppercase;
-    color: #fff;
-    background-color: #d63447;
+    color: $c-white;
+    background-color: $ligth-red;
     width: 37px;
     border-radius: 50px;
     text-align: center;
     padding: 4px 0;
     position: absolute;
-    // top: 20px;
-    // left: 100%;
-  }
-
-  &__image {
-    height: 122px;
-    position: absolute;
-    top: 263px;
-    // left: 100%;
   }
 }

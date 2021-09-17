@@ -8,9 +8,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    @include hind-semi-bold;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -18,9 +16,7 @@
   }
 
   &__title {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 28px;
     line-height: 34px;
     padding-top: 447px;
@@ -28,30 +24,26 @@
   }
 
   &__text {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 28px;
     line-height: 34px;
     margin-left: 50px;
   }
 
   &__button {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 12px;
     line-height: 12px;
     text-transform: uppercase;
-    color: #fff;
+    color: $c-white;
     padding: 5px 10px;
-    background-color: #05297f;
+    background-color: $c-blue;
     margin-left: 50px;
   }
 
   &__button:hover {
-    background-color: #fc9d9d;
-    color: #000;
+    background-color: $c-pink;
+    color: $c-dark;
   }
 
   @media (max-width:1399px) {

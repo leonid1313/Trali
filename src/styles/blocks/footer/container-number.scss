@@ -2,21 +2,17 @@
   margin-left: 10px;
 
   &:hover {
-    color: #05297f;
+    color: $c-blue;
   }
 
   &__span {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 14px;
     line-height: 24px;
   }
 
   &__text {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 600;
+    @include hind-semi-bold;
     font-size: 24px;
     line-height: 24px;
   }

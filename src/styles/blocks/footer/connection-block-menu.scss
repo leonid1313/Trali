@@ -1,16 +1,14 @@
 .connection-block-menu {
 
   &__link {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 18px;
     line-height: 24px;
-    color: #666;
+    color: $c-gray;
   }
 
   &__link:hover {
-    color: #05297f;
+    color: $c-blue;
   }
 
   @media (max-width: 1199px) {

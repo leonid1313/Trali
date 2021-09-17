@@ -2,11 +2,11 @@
   width: 109px;
 
   &__link {
-    color: #05297f;
+    color: $c-blue;
   }
 
   &__link:hover {
-    color: #fc9d9d;
+    color: $c-pink;
   }
 
   @media (max-width: 1199px) {

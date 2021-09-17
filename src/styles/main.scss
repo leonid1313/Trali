@@ -1,5 +1,4 @@
 @import "utils";
-@import "typography";
 @import "./reset.scss";
 @import "./blocks/container-size.scss";
 
@@ -15,6 +14,7 @@
 @import "./blocks/header/button-link.scss";
 @import "./blocks/header/black-shoes.scss";
 @import "./blocks/header/black-shoes-price.scss";
+@import "./blocks/header/personal-nav-item-span.scss";
 
 @import "./blocks/main/proposition.scss";
 @import "./blocks/main/woman.scss";
@@ -29,6 +29,8 @@
 @import "./blocks/main/card-price.scss";
 @import "./blocks/main/button.scss";
 @import "./blocks/main/card-hover.scss";
+@import "./blocks/main/card-hover-button.scss";
+@import "./blocks/main/show-img.scss";
 
 @import "./blocks/footer/section-information.scss";
 @import "./blocks/footer/section-menu.scss";
@@ -47,7 +49,7 @@
 @import "./blocks/footer/payment-block-images.scss";
 
 body {
-  color: #252525;
+  color: $c-black;
   background: url("/images/bg-full.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,10 +66,14 @@ body {
 }
 
 a {
-  color: black;
+  color: $c-dark;
 }
 
 button,
 a {
   cursor: pointer;
+}
+
+#color {
+  background-color: $c-dark;
 }

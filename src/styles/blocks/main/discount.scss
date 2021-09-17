@@ -2,45 +2,37 @@
   margin-bottom: 170px;
 
   &__title {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 46px;
     line-height: 56px;
   }
 
   &__span {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    @include hind-bold;
     font-size: 46px;
     line-height: 56px;
-    color: #05297f;
+    color: $c-blue;
   }
 
   &__text {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
+    @include hind-ligth;
     font-size: 16px;
     line-height: 24px;
-    color: #666;
+    color: $c-gray;
     margin: 30px 0 50px;
   }
 
   &__button {
-    font-family: "Hind", sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    @include hind-normal;
     font-size: 18px;
     line-height: 18px;
-    color: #fff;
+    color: $c-white;
     padding: 12px 30px;
-    background-color: #fc9d9d;
+    background-color: $c-pink;
   }
 
   &__button:hover {
-    background-color: #05297f;
+    background-color: $c-blue;
   }
 
 }
